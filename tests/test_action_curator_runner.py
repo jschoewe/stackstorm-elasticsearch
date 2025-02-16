@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import patch
 from curator_runner import CuratorRunner
 
+
 class TestCuratorRunner(unittest.TestCase):
 
     @patch('curator_runner.CuratorAction.__init__', return_value=None)
