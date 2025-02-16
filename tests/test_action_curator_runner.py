@@ -60,5 +60,6 @@ class TestCuratorRunner(unittest.TestCase):
         mock_set_up_logging.assert_called_once()
         mock_do_command.assert_called_once()
 
+
 if __name__ == '__main__':
     unittest.main()
