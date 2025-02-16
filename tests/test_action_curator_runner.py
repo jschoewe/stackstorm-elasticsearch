@@ -1,5 +1,5 @@
 import unittest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 from curator_runner import CuratorRunner
 
 class TestCuratorRunner(unittest.TestCase):
